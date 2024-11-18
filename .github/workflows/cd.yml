@@ -47,5 +47,5 @@ jobs:
 
       - name: Apply Kubernetes manifests
         run: |
-          kubectl apply -f path/to/your/deployment.yml
-          kubectl apply -f path/to/your/service.yml
+          kubectl apply -f infra/deployment.yml
+          kubectl apply -f  infra/service.yml
